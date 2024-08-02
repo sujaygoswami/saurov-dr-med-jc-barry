@@ -9400,6 +9400,15 @@ html, body {
 
 .dr-med-jc-barry header.header {
   padding-top: 25px; }
+  .dr-med-jc-barry header.header .header-spec-img {
+    position: absolute;
+    right: -80px;
+    top: -20px; }
+    .dr-med-jc-barry header.header .header-spec-img img {
+      border: 3px solid white;
+      max-width: 250px;
+      height: auto;
+      transform: rotate(10deg); }
   .dr-med-jc-barry header.header .header-main-wrap {
     padding: 0 10px; }
   .dr-med-jc-barry header.header .main-header-holder {
@@ -9449,6 +9458,16 @@ html, body {
   -moz-box-shadow: 0 0 10px 2px #2f2e2e;
   -webkit-box-shadow: 0 0 10px 2px #2f2e2e;
   box-shadow: 0 0 10px 2px #2f2e2e; }
+
+.dr-med-jc-barry .inline-img-text {
+  display: block; }
+  .dr-med-jc-barry .inline-img-text img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px; }
+  .dr-med-jc-barry .inline-img-text span {
+    display: inline-block;
+    vertical-align: middle; }
 
 /*! Vendor */
 /*!

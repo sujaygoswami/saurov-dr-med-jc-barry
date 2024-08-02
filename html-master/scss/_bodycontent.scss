@@ -1,0 +1,20 @@
+.dr-med-jc-barry {
+
+    // basic starts
+    .main-body-wrap{
+        min-height: 100vh;
+    }
+    .global-primary-color-gradient-type-1{
+        background: rgb(2,85,158);
+        background: linear-gradient(180deg, rgba(2,85,158,1) 10%, rgba(199,219,236,1) 100%);
+    }
+    .global-secondary-color-gradient-type-1{
+        background: rgb(255,231,118);
+        background: linear-gradient(180deg, rgba(255,231,118,1) 30%, rgba(255,255,255,1) 100%);
+    }
+    .global-box-shadow-type-1{
+        @include box-shadow(0 0 10px 2px #2f2e2e);
+    }
+    // basic ends
+
+}

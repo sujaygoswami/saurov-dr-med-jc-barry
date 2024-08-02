@@ -1,0 +1,52 @@
+.dr-med-jc-barry{
+
+    header.header{
+        padding-top: 25px;
+        .header-main-wrap{
+            padding: 0 10px;
+        }
+
+        .main-header-holder{
+            @include border-radius(10px 10px 0 0);
+            min-height: 170px;
+            padding: 0 10px;
+        }
+
+        .header-primary-info-box{
+            padding-top: 20px;
+
+            p{
+                margin-bottom: 5px;
+
+                &.lg-text{
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .site-logo-holder{
+            padding-top: 10px;
+            & > .main-wrap{
+                min-width: 202px;
+                min-height: 83px;
+                background-image: url(../Images/site-logo.png);
+                background-repeat: no-repeat;
+                background-position: left bottom;
+                background-size: 202px;
+                font-family: var(--site-secondary-font);
+                font-weight: var(--site-secondary-font-bold);
+                text-shadow: 1px 1px 2px #8e8c8c;
+                padding-bottom: 45px;
+
+                p{
+                    margin-bottom: 10px;
+                    font-size: 13px;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+    
+    
+}
